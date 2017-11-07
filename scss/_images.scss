@@ -1,0 +1,42 @@
+.img-responsive{
+	width: 100%;
+}
+
+.img-rounded{
+	border-radius: 1.5em;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.img-shadow{
+	box-shadow: 0 0 2em $color_black;
+}
+
+.img-thumbnail{
+	box-shadow: 0 0 2em $color_gray;
+	padding: 1em;
+}
+
+a .img-thumbnail{
+	transform: scale(0.98);
+	transition: 0.5s ease-out;
+}
+
+a:hover .img-thumbnail{
+	box-shadow: 0 0 0.5em $color_black;
+	transform: scale(1);
+}
+
+.img-medium{
+	max-width: 500px;
+}
+.img-small{
+	max-width: 300px;
+}
+.img-portfolio-medium{
+	width: 400px;
+	height: 300px;
+}
+

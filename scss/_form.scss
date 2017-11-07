@@ -1,0 +1,53 @@
+.form-input{
+	min-width: 200px;
+	width: 100%;
+	position: relative;
+	margin-top: 1.3em;
+    padding: 0;
+    color: $color_black;
+	
+	&.not-empty-input{
+		
+		input{border-color: $color_primary;}
+		label{
+			margin-top: -1.1em;
+			font-size: 0.8em;
+            color: $color_white;
+		}
+	}
+	
+	input[type=text], textarea{cursor: text;}
+
+	input, textarea, select{
+		border: none;
+		border-bottom: 1px solid $color_black;
+		outline: none;
+		min-width: inherit;
+		width: inherit;
+		font-family: inherit;
+
+		+label{
+			position: absolute;
+			left: 0;
+			top: 0;
+			transition: $transition_default;
+		}
+
+		&:focus{
+			border-color: $color_primary;
+
+			+label{
+				margin-top: -1.1em;
+				font-size: 0.8em;
+				color: $color_white;
+			}
+		}
+	}
+	
+	textarea{resize: vertical;}
+	
+}
+.form-label-bright{
+	font-size: 1.5em;
+	color: $color_white;
+}

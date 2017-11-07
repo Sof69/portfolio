@@ -1,0 +1,56 @@
+$root_font_size_xsmall: 13px;
+$root_font_size_small: 	14px;
+$root_font_size: 				20px;
+$root_font_size_large:  26px;
+$root_font_size_xlarge: 32px;
+
+$root_line_height:		1.3;
+
+$font_small: 0.6rem;
+$font_large: 2rem;
+$font_x_large: 4rem;
+
+$container_max-width: 	100vw;
+
+$grid_padding: 			10px;
+
+$min-width-s:			576px;
+$min-width-m:			768px;
+$min-width-l:			992px;
+$min-width-xl:		$container_max-width;
+
+//---------------Podstawowa paleta kolorów --------------//
+$color_background:	#111;
+
+$color_font_primary: 		#ccc;
+$color_font_secondary: 	#aeaeae;
+
+
+$color_primary: 		#0c75ed;
+$color_secondary:		#9b3535;
+$color_success: 		#00c603;
+$color_warning: 		#ff7a14;
+$color_danger: 			#fd0101;
+$color_info: 				#0198fd;
+
+$color_black: 			#111;
+$color_gray:				#999;
+$color_white: 			#f9f9f9;
+
+$color_link:				#78b3f6;
+$color_link_hover:	#1b5ffc;
+
+$color_facebook_1:		#3b5998;
+$color_facebook_2:		#8b9dc3;
+
+$color_twitter_1:		#326ada;
+$color_twitter_2:		#4099FF;
+
+
+
+$transition_default: 	0.5s all;
+$transition_slow: 		2s all;
+
+$text_shadow_black: 0 0 0.1em $color_black, 0.1em 0.1em 0.1em $color_black;
+$text_shadow_white: 0 0 0.1em $color_white, 0.1em 0.1em 0.1em $color_white;
+
